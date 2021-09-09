@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { TransactionModel } from '../Transaction/Transaction';
-
 import './Form.css';
+
 type FormProps = {
     balance: number,
     updateList : (transaction:TransactionModel) => void;
